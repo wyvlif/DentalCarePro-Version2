@@ -1,0 +1,29 @@
+@import url("variables.css");
+
+@import url("reset.css");
+
+@import url("layout.css");
+
+@import url("typography.css");
+
+@import url("header.css");
+
+@import url("navbar.css");
+
+@import url("hero.css");
+
+@import url("buttons.css");
+
+@import url("cards.css");
+
+@import url("forms.css");
+
+@import url("footer.css");
+
+@import url("animations.css");
+
+@import url("dashboard.css");
+
+@import url("chatbot.css");
+
+@import url("responsive.css");
