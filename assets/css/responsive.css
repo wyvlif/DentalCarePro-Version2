@@ -132,6 +132,25 @@ text-align:center;
 
 }
 
+.process-grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+.team-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.team-card img{
+
+height:300px;
+
+}
+
 }
 
 @media(max-width:576px){
