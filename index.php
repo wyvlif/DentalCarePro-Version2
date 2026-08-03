@@ -397,6 +397,377 @@ The staff were friendly and professional."
 
 </section>
 
+<?php include 'components/cta.php'; ?>
+
+<!-- ==========================
+Latest Dental Tips
+========================== -->
+
+<section class="blog-section">
+
+<div class="container">
+
+<p class="section-title">
+
+Dental Tips
+
+</p>
+
+<h2 class="section-heading">
+
+Latest Oral Health Articles
+
+</h2>
+
+<div class="service-grid">
+
+<div class="service-card fade-up">
+
+<img src="assets/images/blog1.jpg"
+     alt="Brushing Tips"
+     class="blog-image">
+
+<h3>
+
+How to Brush Properly
+
+</h3>
+
+<p>
+
+Learn the correct brushing technique
+to keep your teeth and gums healthy.
+
+</p>
+
+<a href="#"
+class="btn btn-outline">
+
+Read Article
+
+</a>
+
+</div>
+
+<div class="service-card fade-up">
+
+<img src="assets/images/blog2.jpg"
+     alt="Healthy Diet"
+     class="blog-image">
+
+<h3>
+
+Foods That Protect Your Teeth
+
+</h3>
+
+<p>
+
+Discover foods that strengthen enamel
+and reduce the risk of cavities.
+
+</p>
+
+<a href="#"
+class="btn btn-outline">
+
+Read Article
+
+</a>
+
+</div>
+
+<div class="service-card fade-up">
+
+<img src="assets/images/blog3.jpg"
+     alt="Children Dental Care"
+     class="blog-image">
+
+<h3>
+
+Children's Oral Health
+
+</h3>
+
+<p>
+
+Simple habits to help children develop
+healthy smiles from an early age.
+
+</p>
+
+<a href="#"
+class="btn btn-outline">
+
+Read Article
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<!-- ==========================================
+     Contact & Location
+========================================== -->
+
+<section class="contact-home">
+
+    <div class="container">
+
+        <p class="section-title">Get In Touch</p>
+
+        <h2 class="section-heading">
+
+            We're Here To Help
+
+        </h2>
+
+        <div class="contact-grid">
+
+            <!-- Contact Information -->
+
+            <div class="contact-card fade-up">
+
+                <h3>Contact Information</h3>
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <div>
+
+                        <strong>Address</strong>
+
+                        <p>Gahanga, Kigali, Rwanda</p>
+
+                    </div>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <div>
+
+                        <strong>Phone</strong>
+
+                        <p>+250 XXX XXX XXX</p>
+
+                    </div>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <div>
+
+                        <strong>Email</strong>
+
+                        <p>info@dentalcarepro.com</p>
+
+                    </div>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-clock"></i>
+
+                    <div>
+
+                        <strong>Working Hours</strong>
+
+                        <p>
+
+                        Monday - Friday
+
+                        8:00 AM - 5:00 PM
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Quick Contact Form -->
+
+            <div class="form-card fade-up">
+
+                <h3>Send Us a Message</h3>
+
+                <form action="backend/contact.php"
+
+                      method="POST">
+
+                    <div class="form-group">
+
+                        <input
+
+                            type="text"
+
+                            name="name"
+
+                            placeholder="Full Name"
+
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <input
+
+                            type="email"
+
+                            name="email"
+
+                            placeholder="Email Address"
+
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <input
+
+                            type="text"
+
+                            name="subject"
+
+                            placeholder="Subject"
+
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <textarea
+
+                            name="message"
+
+                            placeholder="Your Message"
+
+                            required></textarea>
+
+                    </div>
+
+                    <button
+
+                        class="btn btn-primary"
+
+                        type="submit">
+
+                        Send Message
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+Google Map
+========================================== -->
+
+<section class="map-section">
+
+<div class="container">
+
+<p class="section-title">
+
+Visit Our Clinic
+
+</p>
+
+<h2 class="section-heading">
+
+Find Us Easily
+
+</h2>
+
+<div class="map-container">
+
+<iframe
+
+src="https://www.google.com/maps/embed?..."
+
+width="100%"
+
+height="450"
+
+style="border:0;"
+
+allowfullscreen=""
+
+loading="lazy">
+
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+<section class="emergency-banner">
+
+<div class="container">
+
+<h2>
+
+Dental Emergency?
+
+</h2>
+
+<p>
+
+Call us immediately and our team will
+assist you as quickly as possible.
+
+</p>
+
+<a
+
+href="tel:+250XXXXXXXXX"
+
+class="btn btn-secondary">
+
+Emergency Call
+
+</a>
+
+</div>
+
+</section>
+
 <?php
 
 include 'includes/footer.php';

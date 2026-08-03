@@ -1,0 +1,156 @@
+/* ==========================================
+PAGE BANNER
+========================================== */
+
+.page-banner{
+
+padding:170px 0 90px;
+
+background:linear-gradient(
+135deg,
+#0077B6,
+#00B4D8
+);
+
+color:white;
+
+text-align:center;
+
+}
+
+.page-banner h1{
+
+font-size:52px;
+
+margin-bottom:15px;
+
+color:white;
+
+}
+
+.page-banner p{
+
+color:#F8F8F8;
+
+font-size:18px;
+
+}
+
+/* ==========================================
+ABOUT PAGE
+========================================== */
+
+.about-clinic{
+
+padding:100px 0;
+
+}
+
+.meet-doctor{
+
+background:#F8FBFD;
+
+padding:100px 0;
+
+}
+
+.technology{
+
+padding:100px 0;
+
+}
+
+.trust-section{
+
+padding:100px 0;
+
+}
+
+.about-clinic p,
+.meet-doctor p{
+
+line-height:1.8;
+
+}
+
+/* ==========================================
+FAQ
+========================================== */
+
+.faq-section{
+
+padding:100px 0;
+
+}
+
+.faq-container{
+
+max-width:900px;
+
+margin:auto;
+
+margin-top:40px;
+
+}
+
+.faq-item{
+
+background:white;
+
+margin-bottom:18px;
+
+border-radius:15px;
+
+box-shadow:var(--shadow-sm);
+
+overflow:hidden;
+
+}
+
+.faq-question{
+
+width:100%;
+
+padding:22px;
+
+background:white;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+font-size:18px;
+
+font-weight:600;
+
+cursor:pointer;
+
+}
+
+.faq-answer{
+
+display:none;
+
+padding:0 22px 22px;
+
+}
+
+.faq-item.active .faq-answer{
+
+display:block;
+
+}
+
+/* ==========================================
+Achievements
+========================================== */
+
+.achievements{
+
+padding:100px 0;
+
+background:#F8FBFD;
+
+}
